@@ -40,11 +40,11 @@ color theme:
     margin-top: -10px;
   background-color: white; 
   }
-
-  .slider {
+  
+  #slider {
   width: 100%;
   }
-
+  
   a { 
   color: #0071BC;
   text-decoration:none;}
@@ -93,11 +93,6 @@ color theme:
   #clientlogo img {
   width: 80px;
   margin: 5px 30px;
-  }
-  
-  .slides {
-  padding-left: 3% ;
-  padding-right: 3%;
   }
   
   ul li{
@@ -355,7 +350,11 @@ color theme:
   font-size: 1.2em; 
   text-align: center; 
   }
-  
+      
+  #slider {
+max-width: 900px;
+margin: 50px auto;
+} 
   #utility {display:none;} 
   
   #relations, #reputation, #graphic, #branding, #training, #csr, #editorial, #public  {
@@ -399,11 +398,6 @@ color theme:
  float: none;
   background-color:#0071BC;
   padding-top: 10px;
-  }
-  
-  .slides{ 
-	padding-right: 12%; 
-	padding-left: 12%;
   }
   
  .aboutUs, .servicesSubpage {
